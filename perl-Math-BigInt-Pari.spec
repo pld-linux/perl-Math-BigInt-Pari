@@ -10,6 +10,7 @@ Summary(pl):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigI
 Name:		perl-Math-BigInt-Pari
 Version:	1.09
 Release:	1
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
