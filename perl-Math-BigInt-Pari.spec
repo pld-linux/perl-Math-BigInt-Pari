@@ -19,7 +19,7 @@ Patch0:		%{name}-test.patch
 BuildRequires:	perl-Math-BigInt >= 1.60
 BuildRequires:	perl(Math::BigFloat) >= 1.35
 BuildRequires:	perl-Math-Pari >= 2.001804
-BuildRequires:	perl-devel >= 5.8.0
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Math-BigInt >= 1.60
 Requires:	perl(Math::BigFloat) >= 1.35
