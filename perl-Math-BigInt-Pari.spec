@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	BigInt-Pari
+%define		pdir	Math
+%define		pnam	BigInt-Pari
 Summary:	Math::BigInt::Pari - use Math::Pari for Math::BigInt routines
 Summary(pl):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
 Name:		perl-Math-BigInt-Pari
