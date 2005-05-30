@@ -8,13 +8,13 @@
 Summary:	Math::BigInt::Pari - use Math::Pari for Math::BigInt routines
 Summary(pl):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
 Name:		perl-Math-BigInt-Pari
-Version:	1.09
-Release:	1
+Version:	1.11
+Release:	0.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0c2573c1e109e31b6e30acbbd90f2c15
+# Source0-md5:	1fa5aca164d27c0d7a914f8cab72cf71
 Patch0:		%{name}-test.patch
 BuildRequires:	perl-Math-BigInt >= 1.60
 BuildRequires:	perl(Math::BigFloat) >= 1.35
@@ -39,7 +39,7 @@ warstwy XS bêd±cej interfejsem do bardzo szybkiej biblioteki PARI.
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 # sqrt(+inf) == inf, not NaN
-%patch -p1
+#%patch -p1
 
 %build
 %{__perl} Makefile.PL \
