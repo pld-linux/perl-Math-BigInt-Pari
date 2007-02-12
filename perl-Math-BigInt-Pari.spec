@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	BigInt-Pari
 Summary:	Math::BigInt::Pari - use Math::Pari for Math::BigInt routines
-Summary(pl):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
+Summary(pl.UTF-8):   Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
 Name:		perl-Math-BigInt-Pari
 Version:	1.11
 Release:	1
@@ -30,10 +30,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Math::BigInt::Pari provides support for big integer calculations via
 means of Math::Pari, an XS layer on top of the very fast PARI library.
 
-%description -l pl
-Math::BigInt::Pari dostarcza obs³ugê obliczeñ na wielkich liczbach
-ca³kowitych z wykorzystaniem funkcjonalno¶ci modu³u Math::Pari -
-warstwy XS bêd±cej interfejsem do bardzo szybkiej biblioteki PARI.
+%description -l pl.UTF-8
+Math::BigInt::Pari dostarcza obsÅ‚ugÄ™ obliczeÅ„ na wielkich liczbach
+caÅ‚kowitych z wykorzystaniem funkcjonalnoÅ›ci moduÅ‚u Math::Pari -
+warstwy XS bÄ™dÄ…cej interfejsem do bardzo szybkiej biblioteki PARI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
