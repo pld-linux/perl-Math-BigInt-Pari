@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	BigInt-Pari
 Summary:	Math::BigInt::Pari - use Math::Pari for Math::BigInt routines
-Summary(pl.UTF-8):   Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
+Summary(pl.UTF-8):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
 Name:		perl-Math-BigInt-Pari
 Version:	1.11
 Release:	1
