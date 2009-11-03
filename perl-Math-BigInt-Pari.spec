@@ -8,21 +8,21 @@
 Summary:	Math::BigInt::Pari - use Math::Pari for Math::BigInt routines
 Summary(pl.UTF-8):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
 Name:		perl-Math-BigInt-Pari
-Version:	1.11
+Version:	1.13
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1fa5aca164d27c0d7a914f8cab72cf71
-BuildRequires:	perl-Math-BigInt >= 1.74
-BuildRequires:	perl(Math::BigFloat) >= 1.48
+# Source0-md5:	64a336d15d0faed78587d411e4075363
+BuildRequires:	perl-Math-BigInt >= 1.87
+BuildRequires:	perl-Math-BigFloat >= 1.48
 BuildRequires:	perl-Math-Pari >= 2.010602
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-Requires:	perl-Math-BigInt >= 1.74
-Requires:	perl(Math::BigFloat) >= 1.48
-Requires:	perl-Math-Pari >= 2.010602
+Requires:	perl-Math-BigInt >= 1.87
+Requires:	perl-Math-BigFloat >= 1.48
+Requires:	perl-Math-Pari >= 2.010709
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
