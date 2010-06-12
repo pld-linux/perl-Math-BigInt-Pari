@@ -9,7 +9,7 @@ Summary:	Math::BigInt::Pari - use Math::Pari for Math::BigInt routines
 Summary(pl.UTF-8):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
 Name:		perl-Math-BigInt-Pari
 Version:	1.13
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
