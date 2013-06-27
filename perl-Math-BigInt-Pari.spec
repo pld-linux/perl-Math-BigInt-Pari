@@ -8,18 +8,21 @@
 Summary:	Math::BigInt::Pari - use Math::Pari for Math::BigInt routines
 Summary(pl.UTF-8):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
 Name:		perl-Math-BigInt-Pari
-Version:	1.13
-Release:	3
+Version:	1.17
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	64a336d15d0faed78587d411e4075363
-BuildRequires:	perl-Math-BigInt >= 1.87
-BuildRequires:	perl-Math-Pari >= 2.010602
+Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	3409cef13c47ec2b6c94ad1ac0f7bce3
+BuildRequires:	perl-Math-BigInt >= 1.997
+BuildRequires:	perl-Math-Pari >= 2.010709
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-Requires:	perl-Math-BigInt >= 1.87
+%if %{with tests}
+BuildRequires:	perl-Test-Simple >= 0.62
+%endif
+Requires:	perl-Math-BigInt >= 1.997
 Requires:	perl-Math-Pari >= 2.010709
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -56,4 +59,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGES README
 %{perl_vendorlib}/Math/BigInt/Pari.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Math::BigInt::Pari.3pm*
