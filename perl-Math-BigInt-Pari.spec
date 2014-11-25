@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	BigInt-Pari
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::BigInt::Pari - use Math::Pari for Math::BigInt routines
 Summary(pl.UTF-8):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
 Name:		perl-Math-BigInt-Pari
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3409cef13c47ec2b6c94ad1ac0f7bce3
+URL:		http://search.cpan.org/dist/Math-BigInt-Pari/
 BuildRequires:	perl-Math-BigInt >= 1.997
 BuildRequires:	perl-Math-Pari >= 2.010709
 BuildRequires:	perl-devel >= 1:5.8.0
