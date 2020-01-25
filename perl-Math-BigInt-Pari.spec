@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	BigInt-Pari
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::BigInt::Pari - use Math::Pari for Math::BigInt routines
 Summary(pl.UTF-8):	Math::BigInt::Pari - wykorzystanie Math::Pari do funkcji Math::BigInt
 Name:		perl-Math-BigInt-Pari
